@@ -46,12 +46,12 @@ cd E-shop
 npm install
 npm run dev
 ```
-<img width="1477" height="646" alt="image" src="https://github.com/user-attachments/assets/b7b2af3e-e11a-4337-9515-cd3eba784415" />
 <img width="1477" height="646" alt="image" src="https://github.com/user-attachments/assets/ee75aa93-82ae-4f59-af4b-18b1185cff60" />
 <img width="1529" height="715" alt="image" src="https://github.com/user-attachments/assets/5bb3bd6c-9bde-4066-97f6-1a4c2a5c92e2" />
 <img width="1528" height="779" alt="image" src="https://github.com/user-attachments/assets/904ddfaa-7d76-4546-ab46-65269e945842" />
 <img width="1531" height="816" alt="image" src="https://github.com/user-attachments/assets/219e5e13-0b53-42c2-a1a0-073219e37efc" />
 <img width="1307" height="723" alt="image" src="https://github.com/user-attachments/assets/c6e08242-77ee-4604-a587-25869afbc1e3" />
+
 
 
 
