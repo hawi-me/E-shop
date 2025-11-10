@@ -44,7 +44,8 @@ Build a simple eCommerce page using modern frontend technologies to practice rea
 git clone https://github.com/hawi-me/E-shop
 cd E-shop
 npm install
-npm run dev 
+npm run dev
+```
 <img width="1477" height="646" alt="image" src="https://github.com/user-attachments/assets/b7b2af3e-e11a-4337-9515-cd3eba784415" />
 <img width="1477" height="646" alt="image" src="https://github.com/user-attachments/assets/ee75aa93-82ae-4f59-af4b-18b1185cff60" />
 <img width="1529" height="715" alt="image" src="https://github.com/user-attachments/assets/5bb3bd6c-9bde-4066-97f6-1a4c2a5c92e2" />
