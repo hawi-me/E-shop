@@ -66,12 +66,12 @@ export default function FavoritesPage() {
 
                   <div className="flex gap-2 w-full">
                     <Link href={`/product/${product.id}`} className="flex-1">
-                      <Button variant="outline" size="sm" className="w-full bg-transparent">
+                      <Button variant="outline" size="sm" className="w-full bg-transparent bg-green-600 text-white font-semibold hover:bg-gray-200 transition">
                         View Details
                       </Button>
                     </Link>
-                    <Button onClick={() => handleRemove(product.id)} variant="destructive" size="sm" className="gap-1">
-                      <Trash2 className="w-4 h-4" />
+                    <Button onClick={() => handleRemove(product.id)} variant="destructive" size="sm" className="gap-1  bg-green-600  hover:bg-gray-200 transition ">
+                      <Trash2 className="w-4 h-4 " />
                     </Button>
                   </div>
                 </CardFooter>
@@ -87,7 +87,7 @@ export default function FavoritesPage() {
                 <p className="text-muted-foreground mb-6">Start adding products to your favorites list!</p>
               </div>
               <Link href="/">
-                <Button>Continue Shopping</Button>
+                <Button  className=" bg-green-600  hover:bg-gray-200 transition ">Continue Shopping</Button>
               </Link>
             </CardContent>
           </Card>
