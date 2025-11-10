@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect, useRef, useCallback } from "react"
 import { ProductCard } from "../../../components/product-card"
 import { SearchBar } from "../../../components/search-bar"
