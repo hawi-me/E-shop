@@ -1,11 +1,14 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Inter } from "next/font/google"
+
+const inter = Inter({ subsets: ["latin"] })
+
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { RootWrapper } from "../../components/root-wrapper"
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const _geist = Inter({ subsets: ["latin"] })
+const _geistMono = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "E-Shop",
