@@ -60,7 +60,7 @@ export default function LoginPage() {
                 Welcome to E-Shop
               </CardTitle>
               <CardDescription className="text-white/80">
-                Sign in to your account (Demo)
+                Sign in to your account
               </CardDescription>
             </CardHeader>
             <CardContent>
