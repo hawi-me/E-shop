@@ -135,7 +135,7 @@ export function ProductForm({
           </div>
 
           {/* Submit Button */}
-          <Button type="submit" disabled={isLoading} className="w-full gap-2">
+          <Button type="submit" disabled={isLoading} className="w-full gap-2  bg-green-600 text-white font-semibold hover:bg-gray-200 transition">
             {isLoading && <Loader2 className="w-4 h-4 animate-spin" />}
             {submitButtonLabel}
           </Button>

@@ -38,7 +38,7 @@ export default function CreateProductPage() {
     <div className="bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-slate-800 min-h-screen">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Back Button */}
-        <Button variant="ghost" onClick={() => router.back()} className="gap-2 mb-6">
+        <Button variant="ghost" onClick={() => router.back()} className="gap-2 mb-6 "    >
           <ChevronLeft className="w-4 h-4" />
           Back
         </Button>

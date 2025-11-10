@@ -32,7 +32,8 @@ export function SearchBar({ onSearch, isLoading = false }: SearchBarProps) {
           disabled={isLoading}
         />
       </div>
-      <Button type="submit" disabled={isLoading}>
+      <Button type="submit" disabled={isLoading}                   className=" bg-green-600 text-white font-semibold"
+>
         {isLoading ? "Searching..." : "Search"}
       </Button>
     </form>
