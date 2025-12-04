@@ -93,6 +93,8 @@ export default function LoginPage() {
                 >
                   {isLoading ? "Logging in..." : "Login"}
                 </Button>
+                <h1>admin@gmail.com</h1>
+                <h2>password:admin123</h2>
               </form>
             </CardContent>
           </Card>
